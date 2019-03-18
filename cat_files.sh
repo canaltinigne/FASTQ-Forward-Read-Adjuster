@@ -12,9 +12,6 @@ cat res_789.txt res_10s.txt > resu_2.txt &
 wait
 rm res_*.txt &
 wait
-cat resu_1.txt resu_2.txt > ERR174310_1.fastq.out &
+cat resu_1.txt resu_2.txt > ERR174310_2.fastq.out &
 wait
 rm resu_*.txt 
-
-
-
